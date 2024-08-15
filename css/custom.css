@@ -530,6 +530,51 @@ padding: 2rem !important;
   margin-left: 122px;
 }
 
+/* Add this to your existing CSS */
+.navbar {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+/* .navbar .nav-item .nav-link {
+  color: white; 
+  transition: color 0.3s ease;
+} */
+
+/* Initial Navbar Styles */
+.navbar {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.navbar .nav-link {
+  color: white; /* Initial color for nav links */
+  transition: color 0.3s ease;
+}
+
+/* Dropdown items style */
+.navbar .dropdown-menu .dropdown-item {
+  color: black; /* Dropdown item color */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* responsive */
